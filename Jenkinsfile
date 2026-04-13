@@ -7,8 +7,8 @@ pipeline {
             }
         }
     }
-	stage('Test') {
-        steps {
+stage('Test') {
+    steps {
             sh 'mvn test'
         }
         post {
